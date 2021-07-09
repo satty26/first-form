@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Zen+Tokyo+Zoo&display=swap');
+
+body{
+    background-color: #d6d6d6;
+    font-size: 24px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+#root{
+    width: 50%;
+    margin: auto;
+}
+.form-head{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 3rem;
+}
+
+
+.my-form{
+    padding: 5%;
+    background-color: white;
+}
+
+.label-text{
+    display: block;
+    padding-bottom: 1%;
+}
+
+.form-field{
+    padding: 2%;
+}
+
+.submit-button{
+    display: block;
+    background-color: #007bff;
+    border-radius: 2%;
+    box-shadow: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Maven Pro', sans-serif;
+    margin: auto;
+}
+.form-field > input,textarea{
+  width: 50%;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  font-family: 'Maven Pro', sans-serif;
+  border-bottom: 1px solid black;
+  font-size: 1.2rem;
+  background: #fff;
+  color: #3b3b3b;
+  outline: none;
+  resize: none;
+}
+
+.form-field > input:focus{
+    border: none;
+    border-bottom: 1px solid #007bff;
+    
+}
+
+.form-field > select{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 5px;
+}
+option{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 5px;
+}
+
+.final-button{
+    padding-top: 5%;
+    width: 50%;
+    margin: auto;
+}
+
+.radio-input{
+    padding: 10px 0;
+}
